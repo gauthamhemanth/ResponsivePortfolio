@@ -1,0 +1,50 @@
+#container{
+
+    width: 500px;
+    height: 1000px;
+    border: solid 5px white;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+h1{
+    font-family: Monaco;
+    font-size: 40px;
+    margin: 0px;
+    color: #7d97ad;
+}
+h5, h2, p{
+    margin: 0px;
+    color: #2d3c49;
+}
+a{
+    text-decoration: unset;
+    color: #000000;
+}
+.top{
+    height:12% ;
+    border-bottom-style: solid;
+    border-color: #2d3c49;
+    text-align: left;
+}
+.middle{
+    height: 38%;
+    background-color: lavender;
+    background-image: url(../img/codeIsPoetry.jpg) ;
+    margin-top: 20px;
+    width: 480px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    height: 50%;
+    background-color: azure;
+}
+.project{
+    padding: 15px;
+    margin: 10px;
+    align-content: center;
+    flex: 200px;
+    cursor: pointer;
+    text-align: center;
+}
