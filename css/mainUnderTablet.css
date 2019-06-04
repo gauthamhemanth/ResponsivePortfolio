@@ -1,15 +1,15 @@
 #container{
-    margin-right: auto;
-    margin-left: auto;
-    width: 800px;
-    height: 800px;
+
+    width: 500px;
+    height: 1000px;
     border: solid 5px white;
     background-color: white;
     margin-top: 0px;
+    margin-right: 5px;
 }
 h1{
     font-family: Monaco;
-    font-size: 40px;
+    font-size: 20px;
     margin: 0px;
     color: #7d97ad;
 }
@@ -17,28 +17,34 @@ h5, h2, p{
     margin: 0px;
     color: #2d3c49;
 }
-a{
-    text-decoration: unset;
-    color: #000000;
-}
+
 .top{
-    height:15% ;
+    height:12% ;
     border-bottom-style: solid;
     border-color: #2d3c49;
-    text-align: right;
+    text-align: left;
+}
+.top img{
+    float: left;
+    height: 120px;
+    width: 100px;
+}
+.top p i{
+    visibility: hidden;
 }
 .middle{
-    height: 40%;
+    height: 38%;
     background-color: lavender;
     background-image: url(../img/codeIsPoetry.jpg) ;
     margin-top: 20px;
+    width: 480px;
     cursor: pointer;
 }
 .bottom{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    height: 45%;
+    flex-direction: column;
+    height: 50%;
     background-color: azure;
 }
 .project{
@@ -48,4 +54,14 @@ a{
     flex: 200px;
     cursor: pointer;
     text-align: center;
+}
+section img{
+    float: top;
+    height: 140px;
+    width: 140px;
+}
+section a{
+    float: bottom;
+    text-decoration: unset;
+    color: #000000;
 }

@@ -4,40 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" media="screen and (min-width:500px)" href="css/mainOver500.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width:500px)"  href="css/mainUnder500.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:800px)" href="css/mainUnderWeb.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:800px)"  href="css/mainUnderTablet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:360px)" href="css/mainUnderMobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
 <div id="container">
-    <div class="top">
-        <img src="img/udacity.jpg" height="120px" width=100px align="left"/>
+    <header class="top">
+        <img src="img/udacity.jpg" alt="cover-img" />
         <br>
         <br>
         <h1 >Hemanth Volety</h1>
-        <p >Programming enthusiast -<em>www.github.com/Projects</em></p>
-    </div>
+        <p > Programming enthusiast <i class="fab fa-github"></i><em>www.github.com/Projects</em>
+
+        </p>
+    </header>
     <div class="middle">
     </div>
     <br>
     <h2>Featured Work</h2>
+
     <br>
-    <div class="bottom">
-        <div class="project">
-            <img src="img/apps.jpeg" alt="mobile projects" height="186px" width="186px" >
+    <main class="bottom">
+        <section class="project">
+            <img src="img/apps.jpeg" alt="mobile projects">
             <a href="https://www.github.com/Projects/Mobile"> Mobile</a>
 
-        </div>
-        <div class="project">
-            <img src="img/web.jpeg" alt="web projects" height="186px" width="186px" >
+        </section>
+        <section class="project">
+            <img src="img/web.jpeg" alt="web projects">
             <a href="https://www.github.com/Projects/Web" >Web </a>
 
-        </div>
-        <div class="project">
-            <img src="img/data.jpeg" alt="data projects" height="186px" width="186px" >
+        </section>
+        <section class="project">
+            <img src="img/data.jpeg" alt="data projects">
             <a href="https://www.github.com/Projects/Data" >Data </a>
 
-        </div>
-    </div>
+        </section>
+    </main>
 </div>
 </body>
 </html>

@@ -1,0 +1,70 @@
+#container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 800px;
+    border: solid 5px white;
+    background-color: white;
+    margin-top: 0px;
+}
+h1{
+    font-family: Monaco;
+    font-size: 40px;
+    margin: 0px;
+    color: #7d97ad;
+}
+img{
+    align-items: left;
+}
+
+h5, h2, p{
+    margin: 0px;
+    color: #2d3c49;
+}
+ .top{
+    height:15% ;
+    border-bottom-style: solid;
+    border-color: #2d3c49;
+    text-align: right;
+}
+ .top img{
+     float: left;
+     height: 120px;
+     width: 100px;
+ }
+ .top p i{
+     visibility: hidden;
+ }
+.middle{
+    height: 40%;
+    background-color: lavender;
+    background-image: url(../img/codeIsPoetry.jpg) ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 45%;
+    background-color: azure;
+}
+.project{
+    padding: 15px;
+    margin: 10px;
+    align-content: center;
+    flex: 200px;
+    cursor: pointer;
+    text-align: center;
+}
+
+section img{
+    
+    height: 186px;
+    width: 186px;
+}
+section a{
+    float: bottom;
+    text-decoration: unset;
+    color: #000000;
+}
