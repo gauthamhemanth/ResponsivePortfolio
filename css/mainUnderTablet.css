@@ -1,6 +1,6 @@
 #container{
 
-    width: 500px;
+    width: 730px;
     height: 1000px;
     border: solid 5px white;
     background-color: white;
@@ -9,10 +9,12 @@
 }
 h1{
     font-family: Monaco;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px;
     color: #7d97ad;
+
 }
+
 h5, h2, p{
     margin: 0px;
     color: #2d3c49;
@@ -37,7 +39,7 @@ h5, h2, p{
     background-color: lavender;
     background-image: url(../img/codeIsPoetry.jpg) ;
     margin-top: 20px;
-    width: 480px;
+    width: 730px;
     cursor: pointer;
 }
 .bottom{
@@ -59,9 +61,13 @@ section img{
     float: top;
     height: 140px;
     width: 140px;
+    display: block;
+    margin: 0 auto;
 }
 section a{
     float: bottom;
+    text-align: justify;
+    width: 140px;
     text-decoration: unset;
     color: #000000;
 }
